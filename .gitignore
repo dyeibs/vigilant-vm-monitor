@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.dist/
+
+# Runtime output
+logs/
+*.log
+
+# Local secrets / environment (the Discord webhook and DB password live in env vars, never in files)
+.env
+.env.*
+
+# Local-only sounds (not part of the project)
+assets/*.mp3
+assets/alarm_custom.wav
+alarm_loop.wav
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+customtkinter>=5.2
+pillow>=9.0
+requests>=2.28
+psycopg2-binary>=2.9
+reportlab>=3.6
+psutil>=5.9
+flask>=2.2
